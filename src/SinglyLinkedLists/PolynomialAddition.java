@@ -106,6 +106,7 @@ class PolyAddition
                     curr = curr.next;
                 }
                 curr.next = new PolyNode(temp_coeff, temp_pow);
+
                 if(p1 == null )
                 {
                     curr.next.next=p2;

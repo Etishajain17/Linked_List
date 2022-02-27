@@ -184,7 +184,6 @@ class DoublyLinkedList
         recursiveReverseTraverse(node.next);
         System.out.println(node.data);
     }
-
 }
 public class BasicOperationsInDoublyLinkedList
 {

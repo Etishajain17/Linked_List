@@ -79,12 +79,12 @@ class Main
         Scanner sc=new Scanner(System.in);
         LinkedList<Employee> ll=new LinkedList();
         ll.add(new Employee("etisha",true));
-        ll.add(new Employee("vishu",true));
-        ll.add(new Employee("v",true));
-        ll.add(new Employee("vi",false));
+        ll.add(new Employee("abc",true));
+        ll.add(new Employee("xyz",true));
+        ll.add(new Employee("vivek",false));
         ll.add(new Employee("vis",true));
         ll.add(new Employee("vish",false));
-        ll.add(new Employee("vishug",true));
+        ll.add(new Employee("anq",true));
         System.out.print("Enter the k : " );
         int k=sc.nextInt();
         WorkFromHome wh=new WorkFromHome();
